@@ -8,7 +8,7 @@
 
 var newCarlist = JSON.parse(window.localStorage.getItem('carlist')) || [
   { id: 123456, status: 'false', pic: 'https://img11.360buyimg.com/n7/jfs/t1/168845/23/34111/144306/63da50d0F3c99f2c7/ac467d63b4124e82.jpg', name: '杰士邦-安全帽', price: 139, number: 2, total: 500 },
-  { id: 123457, status: 'false', pic: 'https://img13.360buyimg.com/jdcms/s150x150_jfs/t1/207811/30/23624/114745/62b12ff1E50adc372/132b194f5614f780.jpg.avif', name: '刚泰丰田 AVALON亚洲龙', price: 279800, number: 1, total: 15 },
+  { id: 123457, status: 'false', pic: 'https://img0.baidu.com/it/u=4253860760,1035110147&fm=253&fmt=auto&app=120&f=JPEG?w=660&h=379', name: '刚泰丰田 AVALON亚洲龙', price: 279800, number: 1, total: 15 },
   { id: 123458, status: 'false', pic: 'https://img12.360buyimg.com/n1/jfs/t1/53931/34/22807/95330/63c216feFb0d80402/a27099340f715839.jpg', name: '新日（Sunra）折叠电动车', price: 1999.9, number: 1, total: 5 },
 ];
 // 数组[元素][id] = 12345 
