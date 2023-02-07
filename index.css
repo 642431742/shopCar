@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+.header, .footer {
+  width: 1200px;
+  height: 100px;
+  background-color: skyblue;
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 400px;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.content > .top,
+.content > .bottom {
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+}
+
+.content > .bottom {
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.content > .bottom > .totalPrice > span {
+  font-size: 20px;
+  color: red;
+}
+
+.content > .bottom > .btns > button {
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.content > .top > input {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 0 50px;
+}
+
+.content > ul {
+  padding-top: 10px;
+}
+
+.content > ul > li {
+  width: 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  height: 100px;
+  margin-bottom: 10px;
+
+  display: flex;
+}
+
+.content > ul > li > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #333;
+}
+
+.content > ul > li > div:last-child {
+  border: none;
+}
+
+.content > ul > li > .show,
+.content > ul > li > .status {
+  width: 100px;
+}
+
+.content > ul > li > .status > input {
+  width: 30px;
+  height: 30px;
+}
+
+.content > ul > li > .show > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content > ul > li > .price,
+.content > ul > li > .sub {
+  width: 200px;
+  color: red;
+  font-size: 20px;
+}
+
+.content > ul > li > .title {
+  width: 300px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.content > ul > li > .number {
+  width: 230px;
+}
+
+.content > ul > li > .number > input {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin: 0 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.content > ul > li > .number > button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.content > ul > li > .destory {
+  flex: 1;
+}
+
+.content > ul > li > .destory > button {
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
